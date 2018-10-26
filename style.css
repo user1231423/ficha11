@@ -12,3 +12,7 @@ h1{
     margin: 0;
     line-height: 0.8;
 }
+
+section .container .col-lg-12{
+    background-color: white;
+}
