@@ -16,3 +16,22 @@ h1{
 section .container .col-lg-12{
     background-color: white;
 }
+
+#carouselExampleIndicators{
+    color: black;
+    height: 210px;
+}
+
+#carouselExampleIndicators .carousel-indicators li{
+    background-color: rgba(220, 20, 60, 0.3);
+}
+
+#carouselExampleIndicators .control-next-icon .carousel-control-prev-icon{
+    background-color: crimson;
+}
+
+.control-caption{
+    color: black;
+    top: 0;
+    padding: 60px 130px;
+}
