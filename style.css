@@ -1,5 +1,6 @@
 body {
     background: #f8f9fa;
+    margin: 5vh;
     }
 
 .cor-principal {
@@ -19,6 +20,10 @@ section .container .col-lg-12 {
 
 #carouselExampleIndicators {
     color: black;
+}
+
+#carouselExampleIndicators .carousel-indicators .active{
+    background-color: crimson;
 }
 
 #carouselExampleIndicators .carousel-indicators li {
@@ -44,20 +49,31 @@ section .container .col-lg-12 {
 footer {
     color: white;
 }
-
-footer .container .col-lg-12 {
+   
+footer .container .col-lg-12{
     background-color: maroon;
     padding: 60px;
 }
 
 .social-media a {
     padding: 0 10px;
-    color: white;
+    color: maroon;
     text-decoration: none;
+    color: white;
 }
 
 .social-media a:hover {
     color: grey;
+}
+
+.map{
+    display: flex;
+    justify-content: space-around;
+}
+
+.horario{
+    display: flex;
+    justify-content: space-around;
 }
 
 .carousel img {
